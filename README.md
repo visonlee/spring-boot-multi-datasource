@@ -15,7 +15,7 @@
         </resources>
 ```
 
-在main方法的注解里面,我们需要修改成,代表我们需要收到配置
+在main方法的注解里面,我们需要修改成,代表我们需要修改配置
 ```java
 @SpringBootApplication(exclude = {
         DataSourceAutoConfiguration.class,
